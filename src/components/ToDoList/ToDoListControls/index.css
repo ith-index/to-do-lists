@@ -1,0 +1,37 @@
+.to-do-list-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.to-do-list-controls .label-filter {
+  font-weight: bold;
+}
+
+.to-do-list-controls .label-sort {
+  font-weight: bold;
+}
+
+.to-do-list-controls > .filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 325px;
+  margin-right: 8px;
+}
+
+.to-do-list-controls > .sort {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 8px;
+}
+
+.to-do-list-controls > .edit {
+  width: 100px;
+}

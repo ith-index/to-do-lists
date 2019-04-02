@@ -1,0 +1,17 @@
+.to-do-new {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.to-do-new > .name {
+  flex: 2;
+}
+
+.to-do-new > .description {
+  flex: 8;
+}
+
+.to-do-new > .submit {
+  width: 100px;
+}

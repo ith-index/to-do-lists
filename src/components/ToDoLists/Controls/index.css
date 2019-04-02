@@ -1,0 +1,17 @@
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.controls > .sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 8px;
+}
+
+.controls > .edit {
+  width: 100px;
+}

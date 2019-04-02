@@ -1,0 +1,13 @@
+.to-do-list {
+
+}
+
+.to-do-list > .name {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.to-do-list > .to-dos {
+  display: flex;
+  flex-direction: column;
+}

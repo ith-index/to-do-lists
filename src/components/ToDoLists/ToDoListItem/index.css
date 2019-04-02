@@ -1,0 +1,49 @@
+.to-do-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 5px grey;
+  margin-bottom: 16px;
+  border-radius: 5px;
+
+}
+
+.to-do-list-item > .name-description {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.to-do-list-item > .name-description > .name {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0px;
+}
+
+.to-do-list-item > .name-description > .description {
+
+}
+
+.to-do-list-item > .count {
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.to-do-list-item > .show {
+  margin-right: 16px;
+}
+
+.to-do-list-item > .delete {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.to-do-list-item > .delete:hover {
+  cursor: pointer;
+}

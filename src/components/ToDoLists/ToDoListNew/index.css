@@ -1,0 +1,17 @@
+.to-do-list-new {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.to-do-list-new > .name {
+  flex: 2;
+}
+
+.to-do-list-new > .description {
+  flex: 8;
+}
+
+.to-do-list-new > .submit {
+  width: 100px;
+}
